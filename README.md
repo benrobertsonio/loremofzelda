@@ -6,8 +6,7 @@ Server: `browser-sync start --server --files '*.css, *.html, *.js'`
 
 ## Todo:
  - Add a copy button
- - Font styles
- - Add min / max paragraphs inputs
+ - Add min paragraphs inputs
  - Quotes from:
    - Skyward Sword
    - Breath of the Wind
