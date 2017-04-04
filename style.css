@@ -21,8 +21,46 @@ p {
 
 }
 
-main {
+
+.layout-container {
     margin: 0 auto 1em;
     width: 95%;
-    max-width: 600px;
+    max-width: 1000px;
+}
+
+@media (min-width: 50em) {
+    .layout-grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 2em;
+
+    }
+}
+
+
+textarea {
+    width: 100%;
+    min-height: 500px;
+    font-family: Sherwood;
+    font-size: 1.2em;
+    letter-spacing: .05em;
+}
+
+.form-control {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: space-between;
+}
+
+.form__label,
+.form__input {
+    display: inline-block;
+}
+
+.form__input {
+    height: 20px;
+    padding: 0;
+    align-self: center;
+    text-align: right;
+    max-width: 4em;
 }
