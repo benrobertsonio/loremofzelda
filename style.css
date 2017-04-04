@@ -1,0 +1,29 @@
+.display-text {
+    color: rgb(202, 1, 12);
+    position: relative;
+    width: 7em;
+    margin: 1em auto;
+}
+
+.display__small {
+    font-size: 0.4em;
+    position: absolute;
+    right: 1.85em;
+    top: -4px;
+}
+
+.zelda {
+    font-size: 3em;
+    text-shadow: 3px 3px 5px lightgrey;
+}
+
+p {
+    line-height: 1.5;
+
+}
+
+main {
+    margin: 0 auto 1em;
+    width: 95%;
+    max-width: 600px;
+}
