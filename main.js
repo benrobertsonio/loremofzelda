@@ -1,7 +1,7 @@
 let attributes = {
     pTags: false,
     paragraphNumber: Math.floor(Math.random() * 10) + 3,
-    sentencesMin: 2,
+    sentencesMin: 1,
     sentencesMax: 5,
 }
 
@@ -79,9 +79,6 @@ function lorem(attributes) {
     let textarea = '';
 
     for (let i = 0; i <= paragraphNumber - 1; i++) {
-        if(i === 0 ) {
-            textarea += pTags ? `<p>The Lorem of Zelda ` : 'The Lorem of Zelda ';
-        }
 
         let game = Object.keys(text)[Math.floor(Math.random() * Object.keys(text).length)];
 
@@ -99,11 +96,7 @@ function lorem(attributes) {
         }
 
         if(paragraph.length > 0) {
-            if(i == 0 ) {
-                textarea += pTags ? `${paragraph}</p>\n\n` : `${paragraph}\n\n`
-            } else {
-                textarea += pTags ? `<p>${paragraph}</p>\n\n` : `${paragraph}\n\n`
-            }
+            textarea += pTags ? `<p>${paragraph}</p>\n\n` : `${paragraph}\n\n`
         }
 
 
