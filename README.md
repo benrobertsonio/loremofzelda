@@ -5,7 +5,6 @@ A lorem ipsum generator based on the Legend of Zelda video game series.
 Server: `browser-sync start --server --files '*.css, *.html, *.js'`
 
 ## Todo:
- - Add a copy button
  - Add min paragraphs inputs
  - Quotes from:
    - Skyward Sword
