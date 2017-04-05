@@ -115,7 +115,32 @@ function lorem(attributes) {
 
 lorem(attributes);
 
-const button = document.querySelector('#generate');
-button.addEventListener('click', (e) => {
+function copyToClipboard() {
+    const target = document.querySelector('#text');
+
+    // make it visible, so can be focused
+    console.log(target);
+    target.focus();
+    // select all the text
+    target.setSelectionRange(0, target.value.length);
+
+    // copy the selection
+    var succeed;
+    try {
+        succeed = document.execCommand("copy");
+    } catch (e) {
+        succeed = false;
+    }
+
+    target.setSelectionRange(0, 0);
+
+    return succeed;
+}
+
+const generateButton = document.querySelector('#generate');
+generateButton.addEventListener('click', (e) => {
     lorem(attributes);
 });
+
+const copyButton = document.querySelector('#copy');
+copyButton.addEventListener('click', copyToClipboard);
