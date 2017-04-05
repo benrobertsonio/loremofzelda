@@ -119,7 +119,6 @@ function copyToClipboard() {
     const target = document.querySelector('#text');
 
     // make it visible, so can be focused
-    console.log(target);
     target.focus();
     // select all the text
     target.setSelectionRange(0, target.value.length);
@@ -129,10 +128,12 @@ function copyToClipboard() {
     try {
         succeed = document.execCommand("copy");
     } catch (e) {
+        console.error(e);
         succeed = false;
     }
 
     target.setSelectionRange(0, 0);
+    target.blur();
 
     return succeed;
 }
