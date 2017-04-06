@@ -1,6 +1,80 @@
 html {
     background-color: #fffff8;
-    color: #111;
+}
+
+@font-face {
+    font-family: 'American UNCD';
+    src: url('/fonts/AmericanUncDRegular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ravenna';
+    src: url('/fonts/Ravenna.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sherwood';
+    src: url('/fonts/SherwoodRegular.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Triforce';
+    src: url('/fonts/Triforce.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hylia Serif';
+    src: url('/fonts/HyliaSerif/HyliaSerifBeta-Regular.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Charlemagne';
+    src: url('/fonts/Charlemagne/Charlemagne.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fonts-loaded .display-text {
+    font-family: 'Charlemagne';
+}
+
+.fonts-loaded .zelda {
+    font-family: 'Triforce';
+
+}
+
+.fonts-loaded #text {
+    font-family: 'Sherwood', Georgia, serif;
+    letter-spacing: .05em;
+    font-size: 1.2em;
+}
+
+.fonts-loaded body {
+    font-family: Georgia, serif;
+    letter-spacing: .02em;
+    font-size: 1.2em;
+}
+
+button {
+    border: 2px solid rgb(70, 130, 70);
+    padding: .5em 1em;
+    background: rgb(70, 130, 70);
+    color: white;
+    letter-spacing: .1em;
+    font-size: .85em;
+}
+
+button:first-of-type {
+    margin-right: 1em;
+}
+
+.fonts-loaded button {
+    font-family: 'Hylia Serif';
 }
 
 .display-text {
@@ -63,6 +137,9 @@ textarea {
 .form__label,
 .form__input {
     display: inline-block;
+    font-family: 'Hylia Serif';
+    letter-spacing: .05em;
+    margin-bottom: 1em;
 }
 
 .form__label {
