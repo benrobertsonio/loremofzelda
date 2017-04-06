@@ -26,13 +26,17 @@ html {
     font-style: normal;
 }
 
-.fonts-loaded .display-text {
+.fonts-loaded .display-text,
+.fonts-loaded .charlemagne {
     font-family: 'Charlemagne';
 }
 
-.fonts-loaded .zelda {
+.fonts-loaded .zelda,
+.fonts-loaded .triforce {
     font-family: 'Triforce';
 }
+
+
 
 .fonts-loaded #text {
     font-family: 'Triforce', Georgia, serif;
@@ -47,7 +51,8 @@ html {
     font-size: 1.2em;
 }
 
-.fonts-loaded button {
+.fonts-loaded button,
+.fonts-loaded .hylia-serif {
     font-family: 'Hylia Serif';
 }
 
@@ -58,6 +63,11 @@ html {
 body {
     margin: 0;
     padding: 0;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #fffff8;
 }
 
 footer {
