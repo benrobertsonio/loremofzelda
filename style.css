@@ -1,6 +1,12 @@
 html {
     background-color: #fffff8;
 }
+
+
+
+
+
+/* Fonts */
 @font-face {
     font-family: 'Triforce';
     src: url('/fonts/Triforce.ttf');
@@ -41,6 +47,66 @@ html {
     font-size: 1.2em;
 }
 
+.fonts-loaded button {
+    font-family: 'Hylia Serif';
+}
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: rgb(40, 120, 140);
+    color: #fffff8;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin-top: 3rem;
+    font-size: .75em;
+}
+
+footer a {
+    color: #fffff8;
+}
+
+.text-align-center {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+
+
+
+/* Layout */
+main {
+    min-height: 65vh;
+}
+
+.layout-container {
+    margin: 0 auto 1em;
+    width: 95%;
+    max-width: 1000px;
+}
+
+@media (min-width: 50em) {
+    .layout-grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 2em;
+
+    }
+}
+
+
+
+
+
+
 a {
     color: rgb(40, 120, 140);
 }
@@ -56,10 +122,6 @@ button {
 
 button:first-of-type {
     margin-right: 1em;
-}
-
-.fonts-loaded button {
-    font-family: 'Hylia Serif';
 }
 
 .display-text {
@@ -82,27 +144,14 @@ button:first-of-type {
 
 p {
     line-height: 1.5;
+}
 
+p img {
+    vertical-align: middle;
 }
 
 
-.layout-container {
-    margin: 0 auto 1em;
-    width: 95%;
-    max-width: 1000px;
-}
-
-@media (min-width: 50em) {
-    .layout-grid {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-gap: 2em;
-
-    }
-}
-
-
-textarea {
+#text {
     width: 100%;
     min-height: 500px;
     font-family: Sherwood;
@@ -111,6 +160,12 @@ textarea {
     background: #fffff8;
     border: 1px solid lightgrey;
     padding: .5em;
+}
+
+
+/* Form */
+.form {
+    margin-top: 1em;
 }
 
 .form-control {
