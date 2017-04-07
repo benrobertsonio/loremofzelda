@@ -211,6 +211,6 @@ p {
     text-align: right;
     max-width: 4em;
     background-color: rgba(255, 255, 248, .6);
-    border-style: solid;
+    border: 1px solid lightgray;
     font-size: 1.2em;
 }
