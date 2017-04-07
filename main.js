@@ -19,8 +19,6 @@ function updateAttrs(name, value) {
     } else {
         attributes[name] = !attributes[name];
     }
-
-    console.log(attributes);
 }
 
 function lorem(attributes) {
