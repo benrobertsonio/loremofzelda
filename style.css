@@ -1,7 +1,12 @@
 html {
     background-color: #fffff8;
+    background-image: url('/img/soft_circle_scales.png');
 }
 
+html,
+body {
+    overflow: auto;
+}
 
 
 
@@ -63,6 +68,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-color: rgba(255, 255, 230, .4);
 }
 
 hr {
@@ -71,7 +77,7 @@ hr {
 }
 
 footer {
-    background-color: rgb(40, 120, 140);
+    background-color: rgba(40, 120, 140, .6);
     color: #fffff8;
     padding-top: 2em;
     padding-bottom: 1em;
@@ -149,7 +155,7 @@ button:first-of-type {
 
 .zelda {
     font-size: 3em;
-    text-shadow: 3px 3px 5px lightgrey;
+    text-shadow: 3px 3px 5px lightgray;
 }
 
 p {
@@ -167,7 +173,7 @@ p img {
     font-family: Sherwood;
     font-size: 1.2em;
     letter-spacing: .05em;
-    background: #fffff8;
+    background: rgba(255, 255, 230, .2);
     border: 1px solid lightgrey;
     padding: .5em;
 }
