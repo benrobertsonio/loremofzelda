@@ -70,7 +70,21 @@ function lorem(attributes) {
                     'Can Hyrule\'s destiny really depend on such a lazy boy?',
                     '! Who...? Who are you? How did you get past the guards?',
                     'The flow of time is always cruel... its speed seems different for each person, but no one can change it... A thing that does not change with time is a memory of younger days...',
-                    'I wish I could roll down the mountain like a rock, with a Bomb Flower and... BOOOOOOM! If I could do that with a Bomb Flower, I could become a real man.'
+                    'I wish I could roll down the mountain like a rock, with a Bomb Flower and... BOOOOOOM! If I could do that with a Bomb Flower, I could become a real man.',
+                    'Ancient Creators of Hyrule! Now, open the sealed door and send the Evil Incarnation of Darkness into the void of the Evil Realm!! ',
+                    'AAAAAAAAAAAH! A GERUDO!!!! Wha-? A mask? Why do you have a mask like that?! ',
+                    'If I wore something like that... I\'d be a real Skulltula... AAAAAAAAAAH! '
+                ],
+                'Majoras Mask': [
+                    'Umm, Mommy... Don\'t go picking up bomb bags in the middle of the night anymore. It\'s like asking to be mugged. ',
+                    'It\'s strange, but the way you look right now sort of looks like this tree... It looks all dark and gloomy... almost like it could start crying any second now... How sad...',
+                    'Wha!!! That\'s my son! Eesh...Is he still doing that sort of thing? ',
+                    'Milk... It\'s miiiilk... Can you get tipsy from something like milk?!? Hic! ',
+                    'I...I shall consume. Consume...Consume everything. ',
+                    'A puppet that can no longer be used is mere garbage. ',
+                    'I am not stinky! I take a bath at least once a month! ',
+                    'Whenever there\'s a meeting, a parting is sure to follow. However, that parting need not last forever. Whether a parting be forever or merely for a short time. . . That is up to you. ',
+                    'AHH! IT\'S LINK! HIDE! '
                 ]
             }
 
