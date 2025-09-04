@@ -1,124 +1,430 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Lorem of Zelda</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lorem of Zelda</title>
 
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/lorem-of-zelda/icon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/lorem-of-zelda/icon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/lorem-of-zelda/icon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/lorem-of-zelda/icon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/lorem-of-zelda/icon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/lorem-of-zelda/icon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/lorem-of-zelda/icon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/lorem-of-zelda/icon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/lorem-of-zelda/icon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/lorem-of-zelda/icon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/lorem-of-zelda/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/lorem-of-zelda/icon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/lorem-of-zelda/icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/lorem-of-zelda/icon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="/lorem-of-zelda/icon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
-        <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/icon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/icon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
-        <link rel="manifest" href="/icon/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/icon/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="The Lorem of Zelda" />
+    <meta
+      name="description"
+      content="A Legend of Zelda themed lorem ipsum generator."
+    />
+    <meta
+      property="og:description"
+      content="A Legend of Zelda themed lorem ipsum generator."
+    />
+    <meta
+      property="og:image"
+      content="https://benrobertsonio.github.io/loremofzelda/lorem-of-zelda/img/lorem-of-zelda.png"
+    />
+    <meta
+      property="og:url"
+      content="https://benrobertsonio.github.io/loremofzelda/"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:site_name" content="The Lorem of Zelda" />
+    <meta name="twitter:image:alt" content="The Lorem of Zelda" />
 
-        <meta property="og:title" content="The Lorem of Zelda">
-        <meta name="description" content="A Legend of Zelda themed lorem ipsum generator.">
-        <meta property="og:description" content="A Legend of Zelda themed lorem ipsum generator.">
-        <meta property="og:image" content="http://loremofzelda.com/img/lorem-of-zelda.png">
-        <meta property="og:url" content="http://loremofzelda.com">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta property="og:site_name" content="The Lorem of Zelda">
-        <meta name="twitter:image:alt" content="The Lorem of Zelda">
+    <script type="text/javascript">
+      (function () {
+        // Optimization for Repeat Views
+        if (sessionStorage.foutFontsLoaded) {
+          document.documentElement.className +=
+            " fonts-loaded wf-hylia-serif-loaded wf-triforce-loaded";
+          return;
+        }
 
-        <script type="text/javascript">
-            (function() {
-
-                // Optimization for Repeat Views
-                if( sessionStorage.foutFontsLoaded ) {
-                    document.documentElement.className += " fonts-loaded wf-hylia-serif-loaded wf-triforce-loaded";
-                    return;
-                }
-
-                // FontFaceObserver https://github.com/bramstein/fontfaceobserver
-                (function(){function e(e,t){document.addEventListener?e.addEventListener("scroll",t,!1):e.attachEvent("scroll",t)}function t(e){document.body?e():document.addEventListener?document.addEventListener("DOMContentLoaded",function t(){document.removeEventListener("DOMContentLoaded",t),e()}):document.attachEvent("onreadystatechange",function n(){if("interactive"==document.readyState||"complete"==document.readyState)document.detachEvent("onreadystatechange",n),e()})}function n(e){this.a=document.createElement("div"),this.a.setAttribute("aria-hidden","true"),this.a.appendChild(document.createTextNode(e)),this.b=document.createElement("span"),this.c=document.createElement("span"),this.h=document.createElement("span"),this.f=document.createElement("span"),this.g=-1,this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;",this.b.appendChild(this.h),this.c.appendChild(this.f),this.a.appendChild(this.b),this.a.appendChild(this.c)}function r(e,t){e.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font:"+t+";"}function i(e){var t=e.a.offsetWidth,n=t+100;return e.f.style.width=n+"px",e.c.scrollLeft=n,e.b.scrollLeft=e.b.scrollWidth+100,e.g!==t?(e.g=t,!0):!1}function s(t,n){function r(){var e=s;i(e)&&null!==e.a.parentNode&&n(e.g)}var s=t;e(t.b,r),e(t.c,r),i(t)}function o(e,t){var n=t||{};this.family=e,this.style=n.style||"normal",this.weight=n.weight||"normal",this.stretch=n.stretch||"normal"}function l(){if(null===a){var e=document.createElement("div");try{e.style.font="condensed 100px sans-serif"}catch(t){}a=""!==e.style.font}return a}function c(e,t){return[e.style,e.weight,l()?e.stretch:"","100px",t].join(" ")}var u=null,a=null,f=null;o.prototype.load=function(e,i){var o=this,a=e||"BESbswy",l=i||3e3,h=(new Date).getTime();return new Promise(function(e,i){null===f&&(f=!!window.FontFace);if(f){var p=new Promise(function(e,t){function n(){(new Date).getTime()-h>=l?t():document.fonts.load(c(o,o.family),a).then(function(t){1<=t.length?e():setTimeout(n,25)},function(){t()})}n()}),d=new Promise(function(e,t){setTimeout(t,l)});Promise.race([d,p]).then(function(){e(o)},function(){i(o)})}else t(function(){function t(){var t;if(t=-1!=m&&-1!=g||-1!=m&&-1!=S||-1!=g&&-1!=S)(t=m!=g&&m!=S&&g!=S)||(null===u&&(t=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),u=!!t&&(536>parseInt(t[1],10)||536===parseInt(t[1],10)&&11>=parseInt(t[2],10))),t=u&&(m==x&&g==x&&S==x||m==T&&g==T&&S==T||m==N&&g==N&&S==N)),t=!t;t&&(null!==C.parentNode&&C.parentNode.removeChild(C),clearTimeout(L),e(o))}function f(){if((new Date).getTime()-h>=l)null!==C.parentNode&&C.parentNode.removeChild(C),i(o);else{var e=document.hidden;if(!0===e||void 0===e)m=p.a.offsetWidth,g=d.a.offsetWidth,S=v.a.offsetWidth,t();L=setTimeout(f,50)}}var p=new n(a),d=new n(a),v=new n(a),m=-1,g=-1,S=-1,x=-1,T=-1,N=-1,C=document.createElement("div"),L=0;C.dir="ltr",r(p,c(o,"sans-serif")),r(d,c(o,"serif")),r(v,c(o,"monospace")),C.appendChild(p.a),C.appendChild(d.a),C.appendChild(v.a),document.body.appendChild(C),x=p.a.offsetWidth,T=d.a.offsetWidth,N=v.a.offsetWidth,f(),s(p,function(e){m=e,t()}),r(p,c(o,'"'+o.family+'",sans-serif')),s(d,function(e){g=e,t()}),r(d,c(o,'"'+o.family+'",serif')),s(v,function(e){S=e,t()}),r(v,c(o,'"'+o.family+'",monospace'))})})},"undefined"!=typeof module?module.exports=o:(window.FontFaceObserver=o,window.FontFaceObserver.prototype.load=o.prototype.load)})();
-
-                var fontA = new FontFaceObserver('Hylia Serif');
-                var fontB = new FontFaceObserver('Triforce');
-
-                Promise.all([fontA.load(), fontB.load()]).then((values) => {
-                    document.documentElement.className += " fonts-loaded";
-                    for (value in values) {
-                        let font = (values[value].family).toLowerCase();
-                        font = font.replace(' ', '-');
-                        document.documentElement.className += ` wf-${font}-loaded`
-                    }
-
-                    // Optimization for Repeat Views
-                    sessionStorage.foutFontsLoaded = true;
+        // FontFaceObserver https://github.com/bramstein/fontfaceobserver
+        (function () {
+          function e(e, t) {
+            document.addEventListener
+              ? e.addEventListener("scroll", t, !1)
+              : e.attachEvent("scroll", t);
+          }
+          function t(e) {
+            document.body
+              ? e()
+              : document.addEventListener
+              ? document.addEventListener("DOMContentLoaded", function t() {
+                  document.removeEventListener("DOMContentLoaded", t), e();
+                })
+              : document.attachEvent("onreadystatechange", function n() {
+                  if (
+                    "interactive" == document.readyState ||
+                    "complete" == document.readyState
+                  )
+                    document.detachEvent("onreadystatechange", n), e();
                 });
-            })();
-        </script>
-        <link rel="stylesheet" href="/style.css" />
-    </head>
-    <body>
-        <header class="layout-container">
-            <h1 class="display-text"><span class="display__small">The Lorem of</span> <span class="zelda">Zelda</span></h1>
-        </header>
-        <main class="layout-container layout-grid">
-            <section class="form">
-                <div class="form-control">
-                    <label class="form__label" for="paragraphNumber">How many paragraphs?</label>
-                    <input class="form__input" type="number" name="paragraphNumber"/>
-                </div>
+          }
+          function n(e) {
+            (this.a = document.createElement("div")),
+              this.a.setAttribute("aria-hidden", "true"),
+              this.a.appendChild(document.createTextNode(e)),
+              (this.b = document.createElement("span")),
+              (this.c = document.createElement("span")),
+              (this.h = document.createElement("span")),
+              (this.f = document.createElement("span")),
+              (this.g = -1),
+              (this.b.style.cssText =
+                "max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;"),
+              (this.c.style.cssText =
+                "max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;"),
+              (this.f.style.cssText =
+                "max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;"),
+              (this.h.style.cssText =
+                "display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;"),
+              this.b.appendChild(this.h),
+              this.c.appendChild(this.f),
+              this.a.appendChild(this.b),
+              this.a.appendChild(this.c);
+          }
+          function r(e, t) {
+            e.a.style.cssText =
+              "max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font:" +
+              t +
+              ";";
+          }
+          function i(e) {
+            var t = e.a.offsetWidth,
+              n = t + 100;
+            return (
+              (e.f.style.width = n + "px"),
+              (e.c.scrollLeft = n),
+              (e.b.scrollLeft = e.b.scrollWidth + 100),
+              e.g !== t ? ((e.g = t), !0) : !1
+            );
+          }
+          function s(t, n) {
+            function r() {
+              var e = s;
+              i(e) && null !== e.a.parentNode && n(e.g);
+            }
+            var s = t;
+            e(t.b, r), e(t.c, r), i(t);
+          }
+          function o(e, t) {
+            var n = t || {};
+            (this.family = e),
+              (this.style = n.style || "normal"),
+              (this.weight = n.weight || "normal"),
+              (this.stretch = n.stretch || "normal");
+          }
+          function l() {
+            if (null === a) {
+              var e = document.createElement("div");
+              try {
+                e.style.font = "condensed 100px sans-serif";
+              } catch (t) {}
+              a = "" !== e.style.font;
+            }
+            return a;
+          }
+          function c(e, t) {
+            return [e.style, e.weight, l() ? e.stretch : "", "100px", t].join(
+              " "
+            );
+          }
+          var u = null,
+            a = null,
+            f = null;
+          (o.prototype.load = function (e, i) {
+            var o = this,
+              a = e || "BESbswy",
+              l = i || 3e3,
+              h = new Date().getTime();
+            return new Promise(function (e, i) {
+              null === f && (f = !!window.FontFace);
+              if (f) {
+                var p = new Promise(function (e, t) {
+                    function n() {
+                      new Date().getTime() - h >= l
+                        ? t()
+                        : document.fonts.load(c(o, o.family), a).then(
+                            function (t) {
+                              1 <= t.length ? e() : setTimeout(n, 25);
+                            },
+                            function () {
+                              t();
+                            }
+                          );
+                    }
+                    n();
+                  }),
+                  d = new Promise(function (e, t) {
+                    setTimeout(t, l);
+                  });
+                Promise.race([d, p]).then(
+                  function () {
+                    e(o);
+                  },
+                  function () {
+                    i(o);
+                  }
+                );
+              } else
+                t(function () {
+                  function t() {
+                    var t;
+                    if (
+                      (t =
+                        (-1 != m && -1 != g) ||
+                        (-1 != m && -1 != S) ||
+                        (-1 != g && -1 != S))
+                    )
+                      (t = m != g && m != S && g != S) ||
+                        (null === u &&
+                          ((t = /AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(
+                            window.navigator.userAgent
+                          )),
+                          (u =
+                            !!t &&
+                            (536 > parseInt(t[1], 10) ||
+                              (536 === parseInt(t[1], 10) &&
+                                11 >= parseInt(t[2], 10))))),
+                        (t =
+                          u &&
+                          ((m == x && g == x && S == x) ||
+                            (m == T && g == T && S == T) ||
+                            (m == N && g == N && S == N)))),
+                        (t = !t);
+                    t &&
+                      (null !== C.parentNode && C.parentNode.removeChild(C),
+                      clearTimeout(L),
+                      e(o));
+                  }
+                  function f() {
+                    if (new Date().getTime() - h >= l)
+                      null !== C.parentNode && C.parentNode.removeChild(C),
+                        i(o);
+                    else {
+                      var e = document.hidden;
+                      if (!0 === e || void 0 === e)
+                        (m = p.a.offsetWidth),
+                          (g = d.a.offsetWidth),
+                          (S = v.a.offsetWidth),
+                          t();
+                      L = setTimeout(f, 50);
+                    }
+                  }
+                  var p = new n(a),
+                    d = new n(a),
+                    v = new n(a),
+                    m = -1,
+                    g = -1,
+                    S = -1,
+                    x = -1,
+                    T = -1,
+                    N = -1,
+                    C = document.createElement("div"),
+                    L = 0;
+                  (C.dir = "ltr"),
+                    r(p, c(o, "sans-serif")),
+                    r(d, c(o, "serif")),
+                    r(v, c(o, "monospace")),
+                    C.appendChild(p.a),
+                    C.appendChild(d.a),
+                    C.appendChild(v.a),
+                    document.body.appendChild(C),
+                    (x = p.a.offsetWidth),
+                    (T = d.a.offsetWidth),
+                    (N = v.a.offsetWidth),
+                    f(),
+                    s(p, function (e) {
+                      (m = e), t();
+                    }),
+                    r(p, c(o, '"' + o.family + '",sans-serif')),
+                    s(d, function (e) {
+                      (g = e), t();
+                    }),
+                    r(d, c(o, '"' + o.family + '",serif')),
+                    s(v, function (e) {
+                      (S = e), t();
+                    }),
+                    r(v, c(o, '"' + o.family + '",monospace'));
+                });
+            });
+          }),
+            "undefined" != typeof module
+              ? (module.exports = o)
+              : ((window.FontFaceObserver = o),
+                (window.FontFaceObserver.prototype.load = o.prototype.load));
+        })();
 
-                <!-- <div class="form-control">
+        var fontA = new FontFaceObserver("Hylia Serif");
+        var fontB = new FontFaceObserver("Triforce");
+
+        Promise.all([fontA.load(), fontB.load()]).then((values) => {
+          document.documentElement.className += " fonts-loaded";
+          for (value in values) {
+            let font = values[value].family.toLowerCase();
+            font = font.replace(" ", "-");
+            document.documentElement.className += ` wf-${font}-loaded`;
+          }
+
+          // Optimization for Repeat Views
+          sessionStorage.foutFontsLoaded = true;
+        });
+      })();
+    </script>
+    <link rel="stylesheet" href="/lorem-of-zelda/style.css" />
+  </head>
+  <body>
+    <header class="layout-container">
+      <h1 class="display-text">
+        <span class="display__small">The Lorem of</span>
+        <span class="zelda">Zelda</span>
+      </h1>
+    </header>
+    <main class="layout-container layout-grid">
+      <section class="form">
+        <div class="form-control">
+          <label class="form__label" for="paragraphNumber"
+            >How many paragraphs?</label
+          >
+          <input class="form__input" type="number" name="paragraphNumber" />
+        </div>
+
+        <!-- <div class="form-control">
                     <label class="form__label" for="sentencesMin">Minimum sentences per paragraph?</label>
                     <input class="form__input" type="number" name="sentencesMin"/>
                 </div> -->
 
-                <div class="form-control">
-                    <label class="form__label" for="sentencesMax">Max sentences per paragraph?</label>
-                    <input class="form__input" type="number" name="sentencesMax"/>
-                </div>
+        <div class="form-control">
+          <label class="form__label" for="sentencesMax"
+            >Max sentences per paragraph?</label
+          >
+          <input class="form__input" type="number" name="sentencesMax" />
+        </div>
 
-                <div class="form-control">
-                    <label class="form__label" for="pTags">Include HTML &lt;p&gt;&lt;/p&gt; tags?</label>
-                    <input class="form__input" type="checkbox" name="pTags" />
-                </div>
-                <div class="form-control">
-                    <button id="generate">Generate</button>
-                    <button id="copy">Copy to Clipboard</button>
-                </div>
+        <div class="form-control">
+          <label class="form__label" for="pTags"
+            >Include HTML &lt;p&gt;&lt;/p&gt; tags?</label
+          >
+          <input class="form__input" type="checkbox" name="pTags" />
+        </div>
+        <div class="form-control">
+          <button id="generate">Generate</button>
+          <button id="copy">Copy to Clipboard</button>
+        </div>
+      </section>
 
-            </section>
-
-            <section class="output">
-                <textarea id="text"></textarea>
-            </section>
-        </main>
-        <footer>
-            <div class="layout-container">
-                <p>Special thanks to <a href="https://zeldauniverse.net/media/fonts/">Zelda Universe</a> for curating all of the fonts and <a href="https://www.zeldalegends.net/">Zelda Legends</a> for their awesome <a href="https://www.zeldalegends.net/global/randquote.php">quote page</a>. Fonts: <span class="hylia-serif"><a href="http://artsyomni.com/hyliaserif">Hylia Serif</a></span> by Artsy Omni, <span class="triforce">Triforce</span>, and <span class="charlemagne">Charlemagne.</span></p>
-                <p>
-
-                </p>
-                <hr />
-                <p class="text-align-center">Made with <img class="heart-container" alt="love" src="/img/HeartContainer.gif" /> by <a href="http://benjamingrobertson.com">Benjamin Robertson</a></p>
-            </div>
-        </footer>
-    </body>
-    <script type="text/javascript" src="/main.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-43172667-6', 'auto');
-      ga('send', 'pageview');
-
-    </script>
+      <section class="output">
+        <textarea id="text"></textarea>
+      </section>
+    </main>
+    <footer>
+      <div class="layout-container">
+        <p>
+          Special thanks to
+          <a href="https://zeldauniverse.net/media/fonts/">Zelda Universe</a>
+          for curating all of the fonts and
+          <a href="https://www.zeldalegends.net/">Zelda Legends</a> for their
+          awesome
+          <a href="https://www.zeldalegends.net/global/randquote.php"
+            >quote page</a
+          >. Fonts:
+          <span class="hylia-serif"
+            ><a href="http://artsyomni.com/hyliaserif">Hylia Serif</a></span
+          >
+          by Artsy Omni, <span class="triforce">Triforce</span>, and
+          <span class="charlemagne">Charlemagne.</span>
+        </p>
+        <p></p>
+        <hr />
+        <p class="text-align-center">
+          Made with
+          <img
+            class="heart-container"
+            alt="love"
+            src="/lorem-of-zelda/img/HeartContainer.gif"
+          />
+          by <a href="https://ben.robertson.is">Ben Robertson</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script type="text/javascript" src="/lorem-of-zelda/main.js"></script>
+  <script
+    src="https://beamanalytics.b-cdn.net/beam.min.js"
+    data-token="9ea5cf2c-e873-4c7c-95b3-763d2a6440d4"
+    async
+  ></script>
 </html>
